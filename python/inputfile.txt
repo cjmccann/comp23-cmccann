@@ -1,0 +1,76 @@
+jim bob carl john jim jim
+Introduction to Game Development
+
+Lab 2: Python
+
+Lab Objectives
+
+Practice using Python.
+Practice using Git.
+Instructions
+
+This lab is worth 5 points. Instructions: Please complete the following set of programs. Please only use the following resources:
+
+My notes on Python
+The official list of Python built-in functions: http://docs.python.org/library/functions.html
+The official list of Python data structures: http://docs.python.org/tutorial/datastructures.html
+1. Write a program ip_addresses.py that lists all possible IPv4 addresses.
+
+2. Write a program called reverselist.py where you create a list of items of your choosing and print it reversed. Please make this program as short as possible! For example, a list with three strings Tom, Dick, and Harry shall be printed:
+
+Harry
+Dick
+Tom
+3. Write a program word_count.py that counts the number of words in a given input file. Usage: python word_count.py input_file. Your program must count how often each word appears in the file and prints:
+
+word1 count1
+word2 count2
+word3 count3
+word4 count4
+...
+...
+...
+...
+Print the above list in order sorted by word. Store all the words as lowercase, so 'The' and 'the' count as the same word. The last line of the output shall be the total number of words in the file (example: There are 576 words in this file.) You must also throw an exception (i.e., exit gracefully) if file is invalid or is not found.
+
+Getting Started
+
+I created a private GitHub repo for each of you (if you did Lab 1). Sign in to GitHub, then click on the pulldown menu under the Octocat logo to switch account context, and select tuftsdev. You will see a new repo that is named comp23-firstletterofyourfirstnameandyourlastname (e.g., comp23-mchow). You will be using this private repo to submit all future assignments and labs, including this lab. This is a private repo that only you, the TAs, and I have access to. IMPORTANT: Please verify that you can see this private repo after you sign in to GitHub.
+
+On your computer, create a folder with the same name as the private repo I created for you. Follow the instructions that you see on GitHub in your private repo on setting up and pushing.
+
+Inside of the private repo on your computer, create a new folder named python where you will put your three programs.
+
+The README File
+
+Every assignment shall include a README file that describes the work. This description must:
+
+Identify what aspects of the work have been correctly implemented and what have not.
+Identify anyone with whom you have collaborated or discussed the assignment.
+Say approximately how many hours you have spent completing the assignment.
+Be written in either text format (thus README.txt) or in Markdown (thus README.md). No other formats will be accepted.
+Git References
+
+Readings and References
+
+Git Immersion
+Git Basics
+Git for Computer Scientists
+Course and Assignment Policies
+
+Please refer to the course home page.
+
+Submitting Your Lab
+
+Push all your files in the python folder inside of the private GitHub repo I created for you.
+
+# Inside your private GitHub repo folder (e.g., comp23-mchow)
+git add .
+git commit -m "Some good commit message"
+git push
+Assessment
+
+(1 point) All files are in your private GitHub repo inside a folder named python, including the README file!
+(1 point) ip_addresses.py
+(1 point) reverselist.py
+(2 points) word_count.py
