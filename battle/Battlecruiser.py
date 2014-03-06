@@ -1,8 +1,7 @@
-import pygame, os, sys
+import pygame, os, sys, Laser
 from pygame.locals import *
 
 class Battlecruiser(pygame.sprite.Sprite):
-
 	def load_image(self, image_name):
 		try:
 			image = pygame.image.load(image_name)
@@ -30,27 +29,19 @@ class Battlecruiser(pygame.sprite.Sprite):
 
 		self.active = True
 
-		self.lasers = []
-
-	def update(self):
-		x = 0
+	def update(self, keyType):
+		if keyType == K_UP:
+			self.y-=6
+		elif keyType == K_DOWN:
+			self.y+=6
+		elif keyType == K_LEFT:
+			self.x-=6
+		elif keyType == K_RIGHT:
+			self.x+=6
 
 	def draw(self):
-		self.screen.blit(self.image, (0, 0))
-
-	def addLaser(self):
-		x = 0
-
-	def move(self, keyType):
-		if keyType == K_UP:
-			self.y-=3
-		elif keyType == K_DOWN:
-			self.y+=3
-		elif keyType == K_LEFT:
-			self.x-=3
-		elif keyType == K_RIGHT:
-			self.x+=3
-
+		draw_pos = self.image.get_rect().move(self.x - self.image_w / 2, self.y - self.image_h / 2)
+		self.screen.blit(self.image, draw_pos)
 
 if __name__ == "__main__":
 	FPS = 50
@@ -58,7 +49,7 @@ if __name__ == "__main__":
 	MAX_SPEED = 10
 	BACKGROUND_COLOR = (0, 0, 0)
 	NUM_SPRITES = 10
-	
+	LASERS = []	
 	pygame.init()
 	
 	screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -70,6 +61,9 @@ if __name__ == "__main__":
 
 	while True:
 		time_passed = clock.tick(FPS)
+
+		screen.fill(BACKGROUND_COLOR)
+
 		
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
@@ -77,14 +71,20 @@ if __name__ == "__main__":
 				sys.exit()
 			elif event.type == KEYDOWN:
 				if (event.key == K_SPACE):
-					battlecruiser.addLaser()
-				if (event.key == K_UP || event.key == K_DOWN || 
-						event.key == K_LEFT || event.key == K_RIGHT):
-					battlecruiser.move(event.key)
+					LASERS.append(Laser.Laser(screen, "assets/laser.gif", battlecruiser.x, 
+						          battlecruiser.y - (battlecruiser.image_h/2), 0, -7))
+				if (event.key == K_UP or event.key == K_DOWN or 
+						event.key or K_LEFT or event.key == K_RIGHT):
+					battlecruiser.update(event.key)
+				if event.key == K_ESCAPE:
+					pygame.quit()
+					sys.exit()
 
-
-		screen.fill(BACKGROUND_COLOR)
-
+		battlecruiser.draw()
+		
+		for l in LASERS:
+			l.update()
+			l.draw()
 
 		pygame.display.flip()
 

@@ -42,7 +42,7 @@ class Laser(pygame.sprite.Sprite):
 if __name__ == "__main__":
 	FPS = 50
 	SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600
-	MAX_SPEED = 15
+	MAX_SPEED = 1
 	BACKGROUND_COLOR = (0, 0, 0)
 	NUM_SPRITES = 15
 	COUNTER_LOCATION = (10, 10)
