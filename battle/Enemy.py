@@ -40,9 +40,24 @@ class Enemy(pygame.sprite.Sprite):
 		self.x += self.dx
 		self.y += self.dy
 
+		self.rect.move(self.x, self.y)
+		self.rect.topleft = (self.x, self.y)
+		self.rect.bottomright = (self.x + self.image_w, self.y + self.image_h)
+
+
 	def draw(self):
 		draw_pos = self.image.get_rect().move(self.x - self.image_w / 2, self.y - self.image_h / 2)
 		self.screen.blit(self.image, draw_pos)
+
+	def destroy(self):
+		try:
+			image = pygame.image.load("assets/laser_explosion.gif")
+		except pygame.error, message:
+			print "Cannot load image: " + "laser_explosion.gif"
+			raise SystemExit, message
+		self.image = image.convert_alpha()
+		self.draw()
+
 
 if __name__ == "__main__":
 	FPS = 50
