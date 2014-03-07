@@ -1,4 +1,4 @@
-import pygame, os, sys, Laser, Enemy, Battlecruiser
+import pygame, os, sys, Laser, Enemy, Battlecruiser, Background
 from pygame.locals import *
 from random import randint
 
@@ -19,6 +19,7 @@ def main():
 	score = 0
 
 	# Prepare objects to be used in the game
+	background = Background.Background(screen)
 	lasers = []
 	player = Battlecruiser.Battlecruiser(screen, "assets/battlecruiser.gif", SCREEN_WIDTH/2, 
 						   SCREEN_HEIGHT/2, 0, 0)
@@ -47,6 +48,9 @@ def main():
 					sys.exit()
 
 		if GAME_OVER == False:
+			background.update()
+			background.draw()
+
 			for l in lasers:
 				l.update()
 				l.draw()
