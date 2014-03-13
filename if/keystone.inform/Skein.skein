@@ -1,0 +1,2063 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x18903c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xa436990" />
+  <item nodeId="node-0x18903c0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+keystone
+An Interactive Fiction by Connor McCann
+Release 1 / Serial number 140313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see a small door, a shimmering metallic door, a heavy stone door and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="4">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43ceb0" />
+      <child nodeId="node-0xa43cb30" />
+      <child nodeId="node-0xa43c580" />
+      <child nodeId="node-0xa43b940" />
+      <child nodeId="node-0xa43b310" />
+      <child nodeId="node-0x1890950" />
+      <child nodeId="node-0x1dea3a0" />
+      <child nodeId="node-0x18907a0" />
+      <child nodeId="node-0xa43aef0" />
+      <child nodeId="node-0x1890700" />
+    </children>
+  </item>
+  <item nodeId="node-0x1890700">
+    <command xml:space="preserve">enter shimmering metallic door</command>
+    <result xml:space="preserve">(first opening the shimmering metallic door)
+
+Facility
+The door shuts behind you and you hear a locking sound. The the room is remarkably bright, but you cannot see its source. The walls, floors, and ceiling are covered in a uniformly white, cloth-like material. In the middle of the room sits a rabbit in a cage, and next to it lies a white envelope.
+
+You can see a shimmering metallic door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x1890750" />
+    </children>
+  </item>
+  <item nodeId="node-0x1890750">
+    <command xml:space="preserve">examine envelope</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43aef0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">(first opening the shimmering metallic door)
+
+Facility
+The door shuts behind you and you hear a locking sound. The the room is remarkably bright, but you cannot see its source. The walls, floors, and ceiling are covered in a uniformly white, cloth-like material. In the middle of the room sits a rabbit in a cage, and next to it lies a white envelope.
+
+You can see a shimmering metallic door, a cage (closed) and an envelope (in which are a key and a note) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="163">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43ab90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ab90">
+    <command xml:space="preserve">examine cage</command>
+    <result xml:space="preserve">You see nothing special about the cage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="163">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43abe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43abe0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="163">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b0e0">
+    <command xml:space="preserve">examine envelope</command>
+    <result xml:space="preserve">A plain, white envelope. Your name is scrawled on the front in jagged, violent characters.
+
+In the envelope are a key and a note.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="163">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b150" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b150">
+    <command xml:space="preserve">examine key</command>
+    <result xml:space="preserve">The key is brass, and the eye of the key is shaped like a wing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="163">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b1c0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="163">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b230" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b230">
+    <command xml:space="preserve">use key on cage</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="163">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b2a0">
+    <command xml:space="preserve">unlock cage with key</command>
+    <result xml:space="preserve">You unlock the cage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="162">YES</temporary>
+  </item>
+  <item nodeId="node-0x18907a0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the small door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x1890810" />
+    </children>
+  </item>
+  <item nodeId="node-0x1890810">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the shimmering metallic door)
+
+Facility
+The door shuts behind you and you hear a locking sound. The the room is remarkably bright, but you cannot see its source. The walls, floors, and ceiling are covered in a uniformly white, cloth-like material. In the middle of the room sits a rabbit in a cage, and next to it lies a white envelope.
+
+You can see a shimmering metallic door, a cage (closed) and an envelope (in which are a key and a note) here.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x1890880" />
+    </children>
+  </item>
+  <item nodeId="node-0x1890880">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43ac50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ac50">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see a shimmering metallic door, a heavy stone door, an ornate wooden door and a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x18906a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18906a0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the small door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43acc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43acc0">
+    <command xml:space="preserve">unlock door key</command>
+    <result xml:space="preserve">Which do you mean, the shimmering metallic door, the heavy stone door, the ornate wooden door or the small door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43ad30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ad30">
+    <command xml:space="preserve">unlock small door with key</command>
+    <result xml:space="preserve">You unlock the small door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43ada0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ada0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the small door)
+
+Annex
+You can see a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43ae10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ae10">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Cathedral
+The body of the Cathedral is imposing. The stained glass windows shoot their colored rays across the floors, and smoke rises from the candles on the alter. The smell of incense is strong. To the east is the Masoleum.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43ae80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ae80">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Masoleum
+
+
+    *** You have won ***
+
+
+In that game you scored 3 out of a possible 0, in 9 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="205">YES</temporary>
+  </item>
+  <item nodeId="node-0x1dea3a0">
+    <command xml:space="preserve">open small door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da3ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da3ab0">
+    <command xml:space="preserve">find the key</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0xa436990" />
+    </children>
+  </item>
+  <item nodeId="node-0xa436990">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x1890950">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the heavy stone door)
+
+The Instinct
+The smell of death invades your nostrils. Frightened, you quickly scan what appears to be a cave. Straight ahead, lightning flashes and you can make out the mouth of the cave. Another flash, and you catch a glimpse of what seems to be a tiger devouring a carcass right at the entrance. You feel it shift its gaze to you. It charges straight for you and you turn to run, but the heavy stone door has shut behind you. The tiger leaps at you and you close your eyes, fearing the worst. The cave goes silent. Terrified, you open your eyes. Another flash of light, the tiger cannot be found. Another flash and crack of thunder and you can see the carcass still lies to the north at the mouth of the cave, and the blood is beginning to pool at your feet. It looks like it may be a person.
+
+You can see a heavy stone door and a carcass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0x18909a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18909a0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see a heavy stone door, an ornate wooden door, a small door and a shimmering metallic door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0x18909f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18909f0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the shimmering metallic door)
+
+Facility
+The door shuts behind you and you hear a locking sound. The the room is remarkably bright, but you cannot see its source. The walls, floors, and ceiling are covered in a uniformly white, cloth-like material. In the middle of the room sits a rabbit in a cage, and next to it lies a white envelope.
+
+You can see a shimmering metallic door, a cage (closed) and an envelope (in which are a key and a note) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0x1890a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1890a40">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see a shimmering metallic door, a heavy stone door, an ornate wooden door and a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0x1890ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1890ab0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the ornate wooden door)
+
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can see a Lincoln Window and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+    <children>
+      <child nodeId="node-0x1890610" />
+    </children>
+  </item>
+  <item nodeId="node-0x1890610">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see an ornate wooden door, a shimmering metallic door, a heavy stone door and a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="195">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43b310">
+    <command xml:space="preserve">enter small door</command>
+    <result xml:space="preserve">(first opening the small door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b380" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b380">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the shimmering metallic door)
+
+Facility
+The door shuts behind you and you hear a locking sound. The the room is remarkably bright, but you cannot see its source. The walls, floors, and ceiling are covered in a uniformly white, cloth-like material. In the middle of the room sits a rabbit in a cage, and next to it lies a white envelope.
+
+You can see a shimmering metallic door, a cage (closed) and an envelope (in which are a key and a note) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b3f0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b460" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b460">
+    <command xml:space="preserve">unlock cage with key</command>
+    <result xml:space="preserve">You unlock the cage.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b4d0">
+    <command xml:space="preserve">return</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b540" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b540">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see a shimmering metallic door, a heavy stone door, an ornate wooden door and a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43af60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43af60">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the heavy stone door)
+
+The Instinct
+The smell of death invades your nostrils. Frightened, you quickly scan what appears to be a cave. Straight ahead, lightning flashes and you can make out the mouth of the cave. Another flash, and you catch a glimpse of what seems to be a tiger devouring a carcass right at the entrance. You feel it shift its gaze to you. It charges straight for you and you turn to run, but the heavy stone door has shut behind you. The tiger leaps at you and you close your eyes, fearing the worst. The cave goes silent. Terrified, you open your eyes. Another flash of light, the tiger cannot be found. Another flash and crack of thunder and you can see the carcass still lies to the north at the mouth of the cave, and the blood is beginning to pool at your feet. It looks like it may be a person.
+
+You can see a heavy stone door and a carcass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43afd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43afd0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see a heavy stone door, an ornate wooden door, a shimmering metallic door and a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b040" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b040">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Facility
+The door shuts behind you and you hear a locking sound. The the room is remarkably bright, but you cannot see its source. The walls, floors, and ceiling are covered in a uniformly white, cloth-like material. In the middle of the room sits a rabbit in a cage, and next to it lies a white envelope.
+
+You can see a shimmering metallic door, a cage (closed) and an envelope (in which is a note) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b7f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b7f0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see a shimmering metallic door, a heavy stone door, an ornate wooden door and a small door here.
+
+You see a key in the middle of the floor that you hadn&apos;t seen before…in t
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b860" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b860">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the ornate wooden door)
+
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can see a Lincoln Window and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43b8d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b8d0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see an ornate wooden door, a shimmering metallic door, a heavy stone door and a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="174">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43b940">
+    <command xml:space="preserve">approach heavy stone door</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43b9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b9b0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the heavy stone door)
+
+The Instinct
+The smell of death invades your nostrils. Frightened, you quickly scan what appears to be a cave. Straight ahead, lightning flashes and you can make out the mouth of the cave. Another flash, and you catch a glimpse of what seems to be a tiger devouring a carcass right at the entrance. You feel it shift its gaze to you. It charges straight for you and you turn to run, but the heavy stone door has shut behind you. The tiger leaps at you and you close your eyes, fearing the worst. The cave goes silent. Terrified, you open your eyes. Another flash of light, the tiger cannot be found. Another flash, and crack of thunder and you can see the carcass still lies to the north at the mouth of the cave, and the blood is beginning to pool at your feet.
+
+You can see a heavy stone door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43ba20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ba20">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, south the smallest. To the east and west the doors look unremarkable.
+
+You can see a heavy stone door and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43ba90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ba90">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the ornate wooden door)
+
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can also see an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43bb00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43bb00">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The window is shut: you&apos;d break the glass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43bb70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43bb70">
+    <command xml:space="preserve">search window</command>
+    <result xml:space="preserve">Through the window you make out The Battlefield.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43bbe0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43bbe0">
+    <command xml:space="preserve">climb through window</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43bc50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43bc50">
+    <command xml:space="preserve">open window</command>
+    <result xml:space="preserve">You open the Lincoln Window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43bcc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43bcc0">
+    <command xml:space="preserve">climb through window</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43bd30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43bd30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43bda0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43bda0">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump on the spot, fruitlessly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43be10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43be10">
+    <command xml:space="preserve">climb window</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43be80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43be80">
+    <command xml:space="preserve">search window</command>
+    <result xml:space="preserve">Through the window you make out The Battlefield.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43bef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43bef0">
+    <command xml:space="preserve">climb through window</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43b5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b5b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43b620" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b620">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43b690" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b690">
+    <command xml:space="preserve">look through window</command>
+    <result xml:space="preserve">Through the window you make out The Battlefield.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43b700" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b700">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, south the smallest. To the east and west the doors look unremarkable.
+
+You can see an ornate wooden door and a heavy stone door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43b770" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43b770">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43bf60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43bf60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43bfd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43bfd0">
+    <command xml:space="preserve">open ornate wooden door</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c040" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c040">
+    <command xml:space="preserve">go through ornate wooden door</command>
+    <result xml:space="preserve">
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can also see an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c0b0">
+    <command xml:space="preserve">open window</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c120" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c120">
+    <command xml:space="preserve">search window</command>
+    <result xml:space="preserve">Through the window you make out The Battlefield.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c190" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c190">
+    <command xml:space="preserve">climb through</command>
+    <result xml:space="preserve">What do you want to climb through?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c200" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c200">
+    <command xml:space="preserve">climb through Lincoln Window</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c270" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c270">
+    <command xml:space="preserve">climb through The Lincoln Window</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c2e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c2e0">
+    <command xml:space="preserve">climb through window</command>
+    <result xml:space="preserve">I don&apos;t think much is to be achieved by that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c350" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c350">
+    <command xml:space="preserve">look outside window</command>
+    <result xml:space="preserve">I only understood you as far as wanting to look outside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c3c0">
+    <command xml:space="preserve">look window</command>
+    <result xml:space="preserve">You see nothing special about the Lincoln Window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c430" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c430">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+The Battlefield
+The light you saw outside appears to be a man standing in the middle of field with a lantern. He is too far away to see you. The moonlight illuminates the headstones that surround him. He softly whistles a song that sounds vaguely familiar.
+
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c4a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c4a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can also see an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">NO</temporary>
+    <children>
+      <child nodeId="node-0xa43c510" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c510">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+The Battlefield
+The light you saw outside appears to be a man standing in the middle of field with a lantern. He is too far away to see you. The moonlight illuminates the headstones that surround him. He softly whistles a song that sounds vaguely familiar.
+
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+&gt;</result>
+    <commentary xml:space="preserve">
+The Battlefield
+The light you saw outside appears to be a man standing in the middle of field with a lantern. He is too far away to see you. The moonlight illuminates the headstones that surround him. He softly whistles a song that sounds vaguely familiar.
+
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+&gt;</commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">NO</temporary>
+  </item>
+  <item nodeId="node-0xa43c580">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the ornate wooden door)
+
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can see a Lincoln Window and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43c5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c5f0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">The window is shut: you&apos;d break the glass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43c660" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c660">
+    <command xml:space="preserve">look through window</command>
+    <result xml:space="preserve">Through the window you make out the Battlefield. You think you might be able to climb through.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43c6d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c6d0">
+    <command xml:space="preserve">climb through window</command>
+    <result xml:space="preserve">The window is shut: you&apos;d break the glass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43c740" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c740">
+    <command xml:space="preserve">open window</command>
+    <result xml:space="preserve">You open the Lincoln Window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43c7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c7b0">
+    <command xml:space="preserve">climb through window</command>
+    <result xml:space="preserve">
+Battlefield
+The light you saw outside appears to be a man standing in the middle of a field with a lantern. He is too far away to see you. The moonlight illuminates the headstones that surround him. He softly whistles a song that sounds vaguely familiar.
+
+You can see a Lincoln Window and a soldier here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43c820" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c820">
+    <command xml:space="preserve">talk soldier</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43c890" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c890">
+    <command xml:space="preserve">talk to soldier</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43c900" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c900">
+    <command xml:space="preserve">look soldier</command>
+    <result xml:space="preserve">A man in a civil-war era war uniform. He holds a lantern and sadly scans the headstones all around him.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43c970" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c970">
+    <command xml:space="preserve">soldier</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43c9e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43c9e0">
+    <command xml:space="preserve">search soldier</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43ca50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ca50">
+    <command xml:space="preserve">a soldier</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43cac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43cac0">
+    <command xml:space="preserve">search a soldier</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43cb30">
+    <command xml:space="preserve">nort</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43cba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43cba0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the heavy stone door)
+
+The Instinct
+The smell of death invades your nostrils. Frightened, you quickly scan what appears to be a cave. Straight ahead, lightning flashes and you can make out the mouth of the cave. Another flash, and you catch a glimpse of what seems to be a tiger devouring a carcass right at the entrance. You feel it shift its gaze to you. It charges straight for you and you turn to run, but the heavy stone door has shut behind you. The tiger leaps at you and you close your eyes, fearing the worst. The cave goes silent. Terrified, you open your eyes. Another flash of light, the tiger cannot be found. Another flash and crack of thunder and you can see the carcass still lies to the north at the mouth of the cave, and the blood is beginning to pool at your feet. It looks like it may be a person.
+
+You can see a heavy stone door and a carcass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43cc10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43cc10">
+    <command xml:space="preserve">carcass</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43cc80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43cc80">
+    <command xml:space="preserve">examine carcass</command>
+    <result xml:space="preserve">The man is bloodied and crumpled. He wears a shredded blazer and bloodstained pants. You lean down to feel if he is still breathing, and to your surprise, he mutters something under his breath. You lean closer. The muttering continues, and this time you can make out what he says. &quot;…Wa--wallet.牯∽&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43ccf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ccf0">
+    <command xml:space="preserve">examine blazer</command>
+    <result xml:space="preserve">You see nothing special about the blazer.
+
+The blazer&apos;s pocket contains a wallet and a photograph.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43cd60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43cd60">
+    <command xml:space="preserve">examine wallet</command>
+    <result xml:space="preserve">You see nothing special about the wallet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43cdd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43cdd0">
+    <command xml:space="preserve">examine photograph</command>
+    <result xml:space="preserve">You see nothing special about the photograph.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="121">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43ce40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43ce40">
+    <command xml:space="preserve">take wallet</command>
+    <result xml:space="preserve">That seems to belong to the carcass.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="120">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43ceb0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="190">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43daf0" />
+      <child nodeId="node-0xa43d700" />
+      <child nodeId="node-0xa43d230" />
+      <child nodeId="node-0xa43cf20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43cf20">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the small door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="190">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43cf90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43cf90">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the shimmering metallic door)
+
+Facility
+The door shuts behind you and you hear a locking sound. The the room is remarkably bright, but you cannot see its source. The walls, floors, and ceiling are covered in a uniformly white, cloth-like material. In the middle of the room sits a rabbit in a cage, and next to it lies a white envelope.
+
+You can see a shimmering metallic door, a cage (closed) and an envelope (in which are a key and a note) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="190">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d000" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d000">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="190">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d070" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d070">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see a shimmering metallic door, a heavy stone door, an ornate wooden door and a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="190">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d0e0">
+    <command xml:space="preserve">unlock small door</command>
+    <result xml:space="preserve">(with the key)
+You unlock the small door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="190">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d150" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d150">
+    <command xml:space="preserve">enter small door</command>
+    <result xml:space="preserve">(first opening the small door)
+
+Annex
+You can see a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="190">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d1c0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Cathedral
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="189">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43d230">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the ornate wooden door)
+
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can see a Lincoln Window and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d2a0">
+    <command xml:space="preserve">open window</command>
+    <result xml:space="preserve">You open the Lincoln Window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d310" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d310">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">
+Battlefield
+The light you saw outside appears to be a man standing in the middle of a field with a lantern. He is too far away to see you. The moonlight illuminates the headstones that surround him. He softly whistles a song that sounds vaguely familiar.
+
+You can see a Lincoln Window and a soldier here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d380" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d380">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can see a Lincoln Window and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d3f0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, south the smallest. To the east and west the doors look unremarkable.
+
+You can see a heavy stone door and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d460" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d460">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the heavy stone door)
+
+The Instinct
+The smell of death invades your nostrils. Frightened, you quickly scan what appears to be a cave. Straight ahead, lightning flashes and you can make out the mouth of the cave. Another flash, and you catch a glimpse of what seems to be a tiger devouring a carcass right at the entrance. You feel it shift its gaze to you. It charges straight for you and you turn to run, but the heavy stone door has shut behind you. The tiger leaps at you and you close your eyes, fearing the worst. The cave goes silent. Terrified, you open your eyes. Another flash of light, the tiger cannot be found. Another flash and crack of thunder and you can see the carcass still lies to the north at the mouth of the cave, and the blood is beginning to pool at your feet. It looks like it may be a person.
+
+You can see a heavy stone door and a carcass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d4d0">
+    <command xml:space="preserve">look carcass</command>
+    <result xml:space="preserve">The man is bloodied and crumpled. He wears a shredded jacket and bloodstained pants. You lean down to feel if he is still breathing, and to your surprise, he mutters something under his breath. You lean closer. The muttering continues, and this time you can make out what he says. &quot;…Wa--wallet.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d540" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d540">
+    <command xml:space="preserve">jacket</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d5b0">
+    <command xml:space="preserve">search jacket</command>
+    <result xml:space="preserve">You find nothing of interest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d620" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d620">
+    <command xml:space="preserve">look jacket</command>
+    <result xml:space="preserve">You see nothing special about the jacket.
+
+The pocket contains nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d690" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d690">
+    <command xml:space="preserve">examine jacket</command>
+    <result xml:space="preserve">You see nothing special about the jacket.
+
+The pocket contains nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="99">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43d700">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the ornate wooden door)
+
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can see a Lincoln Window and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d770" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d770">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see an ornate wooden door, a shimmering metallic door and a heavy stone door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d7e0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the shimmering metallic door)
+
+Facility
+The door shuts behind you and you hear a locking sound. The the room is remarkably bright, but you cannot see its source. The walls, floors, and ceiling are covered in a uniformly white, cloth-like material. In the middle of the room sits a rabbit in a cage, and next to it lies a white envelope.
+
+You can see a shimmering metallic door, a cage (in which is a rabbit) and an envelope (in which are a key and a note) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d850" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d850">
+    <command xml:space="preserve">examine cage</command>
+    <result xml:space="preserve">In the cage is a rabbit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d8c0">
+    <command xml:space="preserve">examine rabbit</command>
+    <result xml:space="preserve">A white rabbit with deep black eyes. It sits, motionless, directing its lifeless gaze toward you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d930" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d930">
+    <command xml:space="preserve">examine envelope</command>
+    <result xml:space="preserve">A plain, white envelope. Your name is scrawled on the front in jagged, violent characters.
+
+In the envelope are a key and a note.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43d9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43d9a0">
+    <command xml:space="preserve">examine key</command>
+    <result xml:space="preserve">The key is brass, and the eye of the key is shaped like a wing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43da10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43da10">
+    <command xml:space="preserve">examine note</command>
+    <result xml:space="preserve">The note reads: A skull-sized kingdom awaits.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43da80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43da80">
+    <command xml:space="preserve">examine cage</command>
+    <result xml:space="preserve">In the cage is a rabbit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43daf0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="182">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e6c0" />
+      <child nodeId="node-0xa43e0a0" />
+      <child nodeId="node-0xa43dbd0" />
+      <child nodeId="node-0xa43db60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43db60">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening the ornate wooden door)
+
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can see a Lincoln Window and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="142">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43dbd0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the ornate wooden door)
+
+Lincoln Room
+You enter the room, and again are met with the faint glow of candle light. The floor is wooden, and there is what looks like antique furniture all around. You walk forward, and notice a dim glow out of the corner of your eye. To the West is a window, it looks like there is some kind of light source outside.
+
+You can see a Lincoln Window and an ornate wooden door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43dd90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43dd90">
+    <command xml:space="preserve">open window</command>
+    <result xml:space="preserve">You open the Lincoln Window.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43de00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43de00">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Battlefield
+The light you saw outside appears to be a man standing in the middle of field with a lantern. He is too far away to see you. The moonlight illuminates the headstones that surround him. He softly whistles a song that sounds vaguely familiar.
+
+You can see a Lincoln Window and a soldier here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43de70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43de70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43dee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43dee0">
+    <command xml:space="preserve">look soldier</command>
+    <result xml:space="preserve">A man in a civil-war era war uniform. He holds a lantern and sadly scans the headstones all around him.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43df50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43df50">
+    <command xml:space="preserve">talk soldier</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43dfc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43dfc0">
+    <command xml:space="preserve">listen soldier</command>
+    <result xml:space="preserve">I only understood you as far as wanting to listen.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="88">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e030" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e030">
+    <command xml:space="preserve">listen to soldier</command>
+    <result xml:space="preserve">You hear nothing unexpected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="87">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43e0a0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening the heavy stone door)
+
+The Instinct
+The smell of death invades your nostrils. Frightened, you quickly scan what appears to be a cave. Straight ahead, lightning flashes and you can make out the mouth of the cave. Another flash, and you catch a glimpse of what seems to be a tiger devouring a carcass right at the entrance. You feel it shift its gaze to you. It charges straight for you and you turn to run, but the heavy stone door has shut behind you. The tiger leaps at you and you close your eyes, fearing the worst. The cave goes silent. Terrified, you open your eyes. Another flash of light, the tiger cannot be found. Another flash and crack of thunder and you can see the carcass still lies to the north at the mouth of the cave, and the blood is beginning to pool at your feet. It looks like it may be a person.
+
+You can see a heavy stone door and a carcass here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="140">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e340" />
+      <child nodeId="node-0xa43e110" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e110">
+    <command xml:space="preserve">examine carcass</command>
+    <result xml:space="preserve">The man is bloodied and crumpled. He wears a shredded blazer and bloodstained pants. You lean down to feel if he is still breathing, and to your surprise, he mutters something under his breath. You lean closer. The muttering continues, and this time you can make out what he says. &quot;…Wa--wallet.§ጐ&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="140">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e180" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e180">
+    <command xml:space="preserve">examine blazer</command>
+    <result xml:space="preserve">You see nothing special about the blazer.
+
+The blazer&apos;s pocket contains a wallet and a photograph.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="140">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e1f0">
+    <command xml:space="preserve">examine wallet</command>
+    <result xml:space="preserve">In the wallet is an ID.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="140">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e260" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e260">
+    <command xml:space="preserve">examine ID</command>
+    <result xml:space="preserve">Can it be? The card says your name and birthdate on it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="140">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e2d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e2d0">
+    <command xml:space="preserve">examine photograph</command>
+    <result xml:space="preserve">As you examine the photograph, lightning flashes again. It is a picture of a man with his back turned, and a large mass engulfed in flame in front of him. It has an eerie look, and feel a shiver shoot down your spine.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43e340">
+    <command xml:space="preserve">carcass</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e3b0">
+    <command xml:space="preserve">examine carcass</command>
+    <result xml:space="preserve">The man is bloodied and crumpled. He wears a shredded blazer and bloodstained pants. You lean down to feel if he is still breathing, and to your surprise, he mutters something under his breath. You lean closer. The muttering continues, and this time you can make out what he says. &quot;…Wa--wallet.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e420" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e420">
+    <command xml:space="preserve">examine jacket</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e490" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e490">
+    <command xml:space="preserve">examine blazer</command>
+    <result xml:space="preserve">You see nothing special about the blazer.
+
+The blazer&apos;s pocket contains a wallet and a photograph.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e500" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e500">
+    <command xml:space="preserve">examine wallet</command>
+    <result xml:space="preserve">Can it be? The card says your name and birthdate on it.
+
+In the wallet is an ID.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e570" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e570">
+    <command xml:space="preserve">examine ID</command>
+    <result xml:space="preserve">You see nothing special about the ID.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e5e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e650" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e650">
+    <command xml:space="preserve">examine photograph</command>
+    <result xml:space="preserve">As you examine the photograph, lightning flashes again. It is a picture of a man with his back turned, and a large mass engulfed in flame in front of him.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+  </item>
+  <item nodeId="node-0xa43e6c0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the shimmering metallic door)
+
+Facility
+The door shuts behind you and you hear a locking sound. The the room is remarkably bright, but you cannot see its source. The walls, floors, and ceiling are covered in a uniformly white, cloth-like material. In the middle of the room sits a rabbit in a cage, and next to it lies a white envelope.
+
+You can see a shimmering metallic door, a cage (closed) and an envelope (in which are a key and a note) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="182">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e730" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e730">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="182">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e7a0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Keystone
+You awake on a cold stone floor to the sound of doors slamming shut. You sit up, startled. The room is small, windowless, and its only sources of light are small candles, one in each corner. The light flickers softly. As you look closer at the walls, you notice each has a shadowy recess that looks vaguely like a door. North of you is the biggest recess, it looks like stone. To the south the is the smallest recess. To the east is a shimmering door that looks to be made of some kind of metal. To the west the the door is made of wood.
+
+You can see a shimmering metallic door, a heavy stone door, an ornate wooden door and a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="182">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e810" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e810">
+    <command xml:space="preserve">unlock small door</command>
+    <result xml:space="preserve">(with the key)
+You unlock the small door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="182">YES</temporary>
+    <children>
+      <child nodeId="node-0xa43e880" />
+    </children>
+  </item>
+  <item nodeId="node-0xa43e880">
+    <command xml:space="preserve">enter small door</command>
+    <result xml:space="preserve">(first opening the small door)
+
+Cathedral
+You can see a small door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="181">YES</temporary>
+  </item>
+</Skein>
